@@ -10,7 +10,7 @@ It's not on npm at the moment, so installation is just cloning the repo (or down
 
 In your .scss file, import the animate.scss file like so:
 
-  @import 'animate.scss';
+    @import 'animate.scss';
 
 (Obviously, update the relative path to make sure you're pointing to the actual file.)
 
