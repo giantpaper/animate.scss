@@ -16,17 +16,17 @@ In your .scss file, import the animate.scss file like so:
 
 If you want to include only certain animations:
 
-  // Required
-  @import 'vars';
-
-  .animate {
     // Required
-    @import 'base';
-
-    // Add in the animations you want
-    @import 'fading_entrance/fadeIn';
-    ... // Add other @import statements
-  }
+    @import 'vars';
+  
+    .animate {
+      // Required
+      @import 'base';
+  
+      // Add in the animations you want
+      @import 'fading_entrance/fadeIn';
+      ... // Add other @import statements
+    }
 
 ## License
 
