@@ -1,0 +1,19 @@
+{
+  "name": "@giantpaper/animate.scss",
+  "version": "1.0.0",
+  "description": "A SASS port of animate.css!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantpaper/animate.scss.git"
+  },
+  "keywords": [
+    "animate",
+    "animation"
+  ],
+  "author": "giantpaper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giantpaper/animate.scss/issues"
+  },
+  "homepage": "https://github.com/giantpaper/animate.scss#readme"
+}

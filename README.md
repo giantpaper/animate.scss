@@ -4,7 +4,9 @@ This is my own version of [Animate.css](http://daneden.github.io/animate.css/), 
 
 ## Installation
 
-It's not on npm at the moment, so installation is just cloning the repo (or downloading it or however folks normally install stuff from Github). Working on that npm thing.
+Install with npm
+
+    npm install @giantpaper/animate.scss
 
 ## Usage
 
@@ -30,4 +32,4 @@ If you want to include only certain animations:
 
 ## License
 
-Animate.css & @giantpaper/animate.scss is licensed under the MIT license. <https://opensource.org/licenses/MIT>
+Animate.scss is licensed under the MIT license. <https://opensource.org/licenses/MIT>
