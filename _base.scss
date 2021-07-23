@@ -1,0 +1,68 @@
+&__animated {
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+
+&__animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+&__animated.repeat-1 {
+  animation-iteration-count: var(--animate-repeat);
+}
+
+&__animated.repeat-2 {
+  animation-iteration-count: calc(var(--animate-repeat) * 2);
+}
+
+&__animated.repeat-3 {
+  animation-iteration-count: calc(var(--animate-repeat) * 3);
+}
+
+&__animated.delay-1s {
+  animation-delay: var(--animate-delay);
+}
+
+&__animated.delay-2s {
+  animation-delay: calc(var(--animate-delay) * 2);
+}
+
+&__animated.delay-3s {
+  animation-delay: calc(var(--animate-delay) * 3);
+}
+
+&__animated.delay-4s {
+  animation-delay: calc(var(--animate-delay) * 4);
+}
+
+&__animated.delay-5s {
+  animation-delay: calc(var(--animate-delay) * 5);
+}
+
+&__animated.faster {
+  animation-duration: calc(var(--animate-duration) / 2);
+}
+
+&__animated.fast {
+  animation-duration: calc(var(--animate-duration) * 0.8);
+}
+
+&__animated.slow {
+  animation-duration: calc(var(--animate-duration) * 2);
+}
+
+&__animated.slower {
+  animation-duration: calc(var(--animate-duration) * 3);
+}
+
+@media print, (prefers-reduced-motion: reduce) {
+  &__animated {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  &__animated[class*='Out'] {
+    opacity: 0;
+  }
+}
