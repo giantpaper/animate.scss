@@ -25,7 +25,7 @@ If you want to include only certain animations:
   
       // Add in the animations you want
       @import 'fading_entrance/fadeIn';
-      ... // Add other @import statements
+      ... // Add other @import statements for animations
     }
 
 ## License
