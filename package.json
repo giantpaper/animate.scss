@@ -1,6 +1,6 @@
 {
   "name": "@giantpaper/animate.scss",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A SASS port of animate.css!",
   "repository": {
     "type": "git",
