@@ -21,7 +21,7 @@
     opacity: 0;
   }
 }
-&___hinge {
+&__hinge {
   animation-duration: calc(var(--animate-duration) * 2);
   animation-name: hinge;
   transform-origin: top left;

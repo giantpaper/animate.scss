@@ -14,7 +14,7 @@
     transform: scale3d(0.3, 0.3, 0.3);
   }
 }
-&___bounceOut {
+&__bounceOut {
   animation-duration: calc(var(--animate-duration) * 0.75);
   animation-name: bounceOut;
 }
